@@ -37,6 +37,8 @@ section {
   padding: 50px 100px;
 }
 
+/* Navbar */
+
 header {
   position: fixed;
   width: 100%;
@@ -78,6 +80,57 @@ header .navbar a:hover {
   font-size: 32px;
   cursor: pointer;
   display: none;
+}
+
+/* Home */
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color: var(--dark-gunmetal);
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color);
+  background: url(assets/white-flower.jpg) no-repeat;
+  background-position: top right;
+  background-size: cover;
+}
+
+.home-text {
+  max-width: 500px;
+}
+
+.home-text h1 {
+  font-size: var(--h1-font);
+  letter-spacing: var(--spacing);
+}
+
+.home-text span {
+  color: var(--primary);
+}
+
+.home-text h2 {
+  font-size: var(--h2-font);
+  margin: var(--m-1) 0;
+  letter-spacing: var(--spacing);
+}
+
+.home-text p {
+  font-size: var(--p-font);
+  margin-bottom: var(--m-4);
+  line-height: 22px;
+  max-width: 71%;
+  text-transform: none;
+}
+
+.btn {
+  padding: 10px 22px;
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btn:hover {
+  background: var(--hover);
 }
 
 @media (max-width: 768px) {
