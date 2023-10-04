@@ -9,6 +9,7 @@
   text-transform: capitalize;
   scroll-behavior: smooth;
   font-family: "Urbanist", sans-serif;
+  /* border: 1px solid red; */
 }
 
 body::-webkit-scrollbar {
@@ -132,6 +133,7 @@ header .navbar a:hover {
   line-height: 22px;
   max-width: 71%;
   text-transform: none;
+  text-align: justify;
 }
 
 .btn {
@@ -183,9 +185,114 @@ header .navbar a:hover {
   margin: 16px 0 var(--m-4);
   text-align: justify;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 22px;
+  text-transform: none;
 }
 
+.skills {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding: 22px 0;
+}
+
+.heading h1 {
+  font-size: var(--h1-font);
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary);
+}
+
+.skills-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-img {
+  width: 500px;
+  height: 400px;
+  margin-top: 120px;
+}
+
+.skills-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.skills-bars {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.skills-text h2 {
+  font-weight: 600;
+}
+
+.skills-text p {
+  font-size: var(--p-font);
+  margin: 16px 0;
+  line-height: 22px;
+  text-transform: none;
+  text-align: justify;
+}
+
+.skills-box {
+  position: relative;
+  background: var(--dark-gunmetal);
+  margin: 16px 0;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.skills-box i {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.skills-box h3 {
+  margin-left: 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.percent-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--primary);
+  height: 5.5px;
+  border-radius: 10px;
+}
+
+.html-bar {
+  width: 90%;
+}
+
+.css-bar {
+  width: 83%;
+}
+
+.js-bar {
+  width: 70%;
+}
+
+.ux-bar {
+  width: 70%;
+}
 @media (max-width: 768px) {
   #menu-icon {
     display: initial;
