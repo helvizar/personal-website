@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website</title>
+  <title>Home - Helvizar's Personal Website</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
   <!-- Navbar -->
   <header>
-    <a href="#" class="logo">Helvizar</a>
+    <a href="index.html" class="logo">helvizar</a>
     <div id="menu-icon" class="fa fa-bars"></div>
-
     <ul class="navbar">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Blogs</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blogs.html">Blogs</a></li>
     </ul>
   </header>
 
@@ -29,206 +28,8 @@
       <h1>Hi, I'm <span>Helvizar Muhammad</span></h1>
       <h2>Fullstack Developer</h2>
       <p>Dedicated learner on the path to becoming a Fullstack Developer. Quick to learn and committed to solving problems. Eager to take on challenges, grow continually, and contribute to practical solutions in the field.</p>
-      <a href="#" class="btn">Show Details</a>
+      <a href="about.html" class="btn">Show Details</a>
     </div>
-  </section>
-
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="./assets/photo.png" alt="helvizar-photo">
-    </div>
-    <div class="about-text">
-      <h2>About Me</h2>
-      <h1>Helvizar Muhammad</h1>
-      <p>Aspiring to be a Fullstack Developer, I'm on a passionate journey of learning and growth. My fascination with technology fuels my dedication to mastering both Front-end and Back-end development. With a natural aptitude for quick learning and a meticulous eye for detail, I thrive on creatively solving complex problems.</p>
-      <p>Beyond code, I'm driven by the belief that technology can create meaningful change. I eagerly embrace new challenges, always seeking opportunities to expand my horizons. My goal is to not only enhance my skills but also to collaborate with diverse teams to craft innovative solutions that leave a positive impact.</p>
-      <a href="#" class="btn">Download CV</a>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section class="skills" id="skills">
-    <div class="heading">
-      <h1>Skills</h1>
-    </div>
-    <!-- Content -->
-    <div class="skills-content">
-      <div class="skills-bars">
-        <div class="skills-text">
-          <h2>My Skills</h2>
-          <p>Familiar with HTML, CSS, and JavaScript, and working on improving my web development skills. Focused on creating user-friendly web interfaces and keeping up with web technology updates.</p>
-        </div>
-        <div class="skills-box">
-          <i class="fab fa-html5"><h3>HTML</h3></i>
-          <span>90%</span>
-          <div class="percent-bar html-bar"></div>
-        </div>
-        <div class="skills-box">
-          <i class="fab fa-css3"><h3>CSS</h3></i>
-          <span>83%</span>
-          <div class="percent-bar css-bar"></div>
-        </div>
-        <div class="skills-box">
-          <i class="fab fa-js"><h3>Javascript</h3></i>
-          <span>70%</span>
-          <div class="percent-bar js-bar"></div>
-        </div>
-        <div class="skills-box">
-          <i class="fas fa-palette"><h3>UI/UX</h3></i>
-          <span>70%</span>
-          <div class="percent-bar ux-bar"></div>
-        </div>
-      </div>
-      <div class="skills-img">
-        <img src="./assets/image.jpg" alt="working-image">
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="portfolio" id="portfolio">
-    <div class="heading">
-      <h1>Portfolio</h1>
-    </div>
-
-    <!-- Content -->
-    <div class="portfolio-content">
-      <div class="p-box">
-        <div class="p-img">
-          <img src="./assets/picture-1.png" alt="Stockshop">
-        </div>
-
-        <h2>Stockshop</h2>
-        <p>A user-friendly e-commerce website designed to provide a simple and hassle-free shopping experience. Offering a variety of products, it aims to meet your everyday needs conveniently.</p>
-      </div>
-      <div class="p-box">
-        <div class="p-img">
-          <img src="./assets/picture-2.png" alt="Playforum">
-        </div>
-
-        <h2>Playforum</h2>
-        <p>A dedicated platform where gamers come together to share valuable insights and information about their favorite games. It serves as a hub for the gaming community, fostering discussions, sharing strategies, and connecting players with similar interests.</p>
-      </div>
-      <div class="p-box">
-        <div class="p-img">
-          <img src="./assets/picture-3.png" alt="Login">
-        </div>
-
-        <h2>Authentication Page</h2>
-        <p>A simple web interface that replicates the authentication page of the popular streaming service Netflix. It mimics the design and layout of the Netflix login page, providing users with a familiar and intuitive login experience.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Blogs -->
-  <section class="blog" id="blog">
-    <div class="heading">
-      <h1>Latest Blog Posts</h1>
-    </div>
-
-    <!-- Content -->
-    <div class="blog-card-group">
-      <div class="blog-card">
-        <div class="blog-card-banner">
-          <img src="./assets/jsposter.jpg" alt="blog-image" class="blog-banner-img" width="250">
-        </div>
-        
-        <div class="blog-content-wrapper">
-          <button class="blog-topic">Web Performance</button>
-            <h3>
-              <a href="#" class="h3">
-                Why JavaScript Is the Programming Language of the Future
-              </a>
-
-              <p class="blog-text">
-                JavaScript was the first programming language I picked up. Well, I actually started with HTML and CSS. Just like many other web developers, going with JavaScript was a no-brainer. This is simply because it blends so well with HTML and CSS, and actually enhances your HTML/CSS skills as well. I've developed applications and games in various other programming languages including Java, Swift, C++, Dart. But the flexibility which JavaScript provides is unmatchable - even though it could be considered bad for beginners as it gives way more options than required to do a simple task.
-              </p>
-
-              <div class="wrapper-flex">
-                <div class="profile-wrapper">
-                  <img src="./assets/photo.png" alt="Helvizar Muhammad" width="50">
-                </div>
-
-                <div class="wrapper">
-                  <a href="#" class="h4">Helvizar Muhammad</a>
-                  <p class="text-date">
-                    <time datetime="2023-10-04">Oct 4, 2023</time>
-                    <span class="sparator"></span>
-                    <span><i class="far fa-clock"></i>5 min read</span>
-                  </p>
-                </div>
-
-              </div>
-            </h3>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <div class="blog-card-banner">
-          <img src="./assets/css.jpg" alt="blog-image" class="blog-banner-img">
-        </div>
-        <div class="blog-content-wrapper">
-          <button class="blog-topic">Web Development</button>
-            <h3>
-              <a href="#" class="h3">
-                Designing A Product Page Layout with Flexbox
-              </a>
-              <p class="blog-text">
-                Flexbox is a new CSS3 layout mode aimed at helping designers to best optimize their designs for various devices. The new function is stil quite new and alien to many, but use of Flexbox is becoming increasingly popular in fields like eCommerce. This CSS3 tutorial comes from the team over at Shopify, where they are reporting on how they managed to create one of their newest Shopify Templates with the help of Flexbox, what the process took and what the end result looked like. Knowing Shopify’s reputation in the eCommerce market and indulging in the tutorial ourselves, this might be one of the most handy guides to helping you understand more about Flexbox and how you can begin using it in your own web designs.
-              </p>
-              <div class="wrapper-flex">
-                <div class="profile-wrapper">
-                  <img src="./assets/photo.png" alt="Helvizar Muhammad">
-                </div>
-                <div class="wrapper">
-                  <a href="#" class="h4">Helvizar Muhammad</a>
-                  <p class="text-date">
-                    <time datetime="2023-10-01">Oct 1, 2023</time>
-                    <span class="sparator"></span>
-                    <span><i class="far fa-clock"></i>7 min read</span>
-                  </p>
-                </div>
-              </div>
-            </h3>
-        </div>
-      </div>
-      
-      <div class="blog-card">
-        <div class="blog-card-banner">
-          <img src="./assets/html.jpg" alt="blog-image" class="blog-banner-img">
-        </div>
-        
-        <div class="blog-content-wrapper">
-          <button class="blog-topic">Web Development</button>
-            <h3>
-              <a href="#" class="h3">
-                Top 10 Uses of HTML
-              </a>
-
-              <p class="blog-text">
-                HTML is a markup language used to create web pages and applications. When combined with JavaScript and CSS, HTML has become a milestone for web development. One useful aspect of HTML is that it can embed programs written in a scripting language like JavaScript, which is responsible for affecting the behavior and content of web pages. CSS inclusion would affect the layout and appearance of the content. The basic building blocks of any HTML page are HTML elements. You can create a structured document using structural-semantic text such as headings, paragraphs, lists, links, and other items. Browser indeed does not display the HTML tags but utilizes them to interpret the page`s content. One needs to study various tags and then understand their behavior.
-              </p>
-
-              <div class="wrapper-flex">
-                <div class="profile-wrapper">
-                  <img src="./assets/photo.png" alt="Helvizar Muhammad">
-                </div>
-
-                <div class="wrapper">
-                  <a href="#" class="h4">Helvizar Muhammad</a>
-                  <p class="text-date">
-                    <time datetime="2023-09-12">Sept 12, 2023</time>
-                    <span class="sparator"></span>
-                    <span><i class="far fa-clock"></i>4 min read</span>
-                  </p>
-                </div>
-              </div>
-            </h3>
-        </div>
-      </div>
-    </div>
-    <button class="btn load-more">Load More</button>
   </section>
 
   <!-- Footer -->
