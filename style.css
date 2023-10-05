@@ -149,7 +149,7 @@ header .navbar a:hover {
 /* About */
 .about {
   width: 100%;
-  min-height: 84vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -464,7 +464,16 @@ header .navbar a:hover {
   background: #667FEA;
 }
 
-@media (min-width: 368px) {
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--primary);
+}
+
+/* Media Query */
+
+@media (min-width: 368px) and (max-width: 768px) {
   #menu-icon {
     display: initial;
     color: var(--dark-gunmetal);
@@ -533,7 +542,6 @@ header .navbar a:hover {
     height: 100%;
     object-fit: cover;
   }
-
 
   .blog-text,
   .profile-wrapper {
